@@ -1,11 +1,16 @@
 {
   "last_run": "2026-10-21",
-  "limitations": ["Channel membership listing unavailable via Slack tools; whole-team roster could not be snapshotted. No public post made."],
+  "limitations": [
+    "GitHub push refused (repo_not_connected) on 2026-10-21; tracker is local only. Public follow-up held to avoid duplicates."
+  ],
   "requests": [
     {
       "id": "PT-1792132790.924999",
       "channel": "C06GP0S90QJ",
-      "requestor": {"name": "Niyati Varma", "id": "U06F3U8B2CF"},
+      "requestor": {
+        "name": "Niyati Varma",
+        "id": "U06F3U8B2CF"
+      },
       "subject": "Performance Review 2026 user-guide webpage feedback",
       "message_ts": "1792132790.924999",
       "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1792132790924999",
@@ -15,14 +20,51 @@
       "discovered": "2026-10-21",
       "first_followup_eligible": "2026-10-18T10:39+04:00",
       "first_followup_posted": null,
-      "status": "Awaiting Clarification",
+      "status": "Open",
       "reviewers_verified": {
-        "U07C6DZ3ZFH": {"name": "Saif El-Neweshy", "status": "Completed", "ts": "1792580847.457939"},
-        "U05JC2ZV7P1": {"name": "Ali Memar", "status": "Completed", "ts": "1792388970.160709"},
-        "U0E9F8LK1": {"name": "Mimi", "status": "Completed", "ts": "1792385443.079089"}
+        "U07C6DZ3ZFH": {
+          "name": "Saif El-Neweshy",
+          "status": "Completed",
+          "ts": "1792580847.457939"
+        },
+        "U05JC2ZV7P1": {
+          "name": "Ali Memar",
+          "status": "Completed",
+          "ts": "1792388970.160709"
+        },
+        "U0E9F8LK1": {
+          "name": "Mimi",
+          "status": "Completed",
+          "ts": "1792385443.079089"
+        },
+        "U069365K62J": {
+          "name": "Kamakshi",
+          "status": "Pending - No Response"
+        },
+        "U08C9MKHH8X": {
+          "name": "Marwa Abosrea",
+          "status": "Pending - No Response"
+        },
+        "U0C5N8DFYGZ": {
+          "name": "Sara Elmahrouky",
+          "status": "Pending - No Response"
+        },
+        "U07Q7CL9ANP": {
+          "name": "Soumya Mainalle",
+          "status": "Pending - No Response"
+        },
+        "U074RR3MMCH": {
+          "name": "Wani",
+          "status": "Pending - No Response"
+        },
+        "U03SFUZS0GG": {
+          "name": "Svetlana",
+          "status": "Pending - No Response"
+        }
       },
-      "reviewers_unverified_roster": "Full #people-team membership not retrievable; remaining members unknown",
-      "svetlana_id": "U03SFUZS0GG"
+      "reviewers_unverified_roster": null,
+      "svetlana_id": "U03SFUZS0GG",
+      "roster_snapshot_source": "Provided by Ali 2026-10-21; Niyati excluded as requestor"
     }
   ]
 }
