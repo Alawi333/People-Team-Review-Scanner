@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-21",
+  "last_run": "2026-10-28",
   "limitations": [],
   "requests": [
     {
@@ -18,7 +18,7 @@
       "discovered": "2026-10-21",
       "first_followup_eligible": "2026-10-18T10:39+04:00",
       "first_followup_posted": "2026-10-21T15:45+04:00",
-      "status": "Open",
+      "status": "Completed",
       "reviewers_verified": {
         "U07C6DZ3ZFH": {
           "name": "Saif El-Neweshy",
@@ -37,27 +37,35 @@
         },
         "U069365K62J": {
           "name": "Kamakshi",
-          "status": "Pending - No Response"
+          "status": "Completed",
+          "ts": "1792650069.701699"
         },
         "U08C9MKHH8X": {
           "name": "Marwa Abosrea",
-          "status": "Pending - No Response"
+          "status": "Completed",
+          "ts": "1792617173.741759"
         },
         "U0C5N8DFYGZ": {
           "name": "Sara Elmahrouky",
-          "status": "Pending - No Response"
+          "status": "Completed",
+          "ts": "1792643351.876479"
         },
         "U07Q7CL9ANP": {
           "name": "Soumya Mainalle",
-          "status": "Pending - No Response"
+          "status": "Completed",
+          "ts": "1792639368.255489",
+          "note": "Confirmed by requestor Niyati (thank-you message 2026-10-22)"
         },
         "U074RR3MMCH": {
           "name": "Wani",
-          "status": "Pending - No Response"
+          "status": "Completed",
+          "ts": "1792639368.255489",
+          "note": "Confirmed by requestor Niyati (thank-you message 2026-10-22)"
         },
         "U03SFUZS0GG": {
           "name": "Svetlana",
-          "status": "Pending - No Response"
+          "status": "Completed",
+          "ts": "1792661572.984089"
         }
       },
       "reviewers_unverified_roster": null,
@@ -68,10 +76,15 @@
           "type": "initial",
           "ts": "1792583144.387669",
           "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1792583144387669"
+        },
+        {
+          "type": "closure",
+          "ts": "1793165818.690229",
+          "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793165818690229"
         }
       ],
       "last_followup": "2026-10-21",
-      "next_reminder_eligible": "2026-10-28",
+      "next_reminder_eligible": null,
       "last_communicated": {
         "completed": [
           "U07C6DZ3ZFH",
@@ -86,7 +99,9 @@
           "U074RR3MMCH",
           "U03SFUZS0GG"
         ]
-      }
+      },
+      "closed": "2026-10-28",
+      "closure_reason": "All 9 reviewers completed; requestor confirmed feedback received"
     }
   ]
 }
