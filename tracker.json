@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-21",
+  "last_run": "2026-10-29",
   "limitations": [],
   "requests": [
     {
@@ -18,7 +18,7 @@
       "discovered": "2026-10-21",
       "first_followup_eligible": "2026-10-18T10:39+04:00",
       "first_followup_posted": "2026-10-21T15:45+04:00",
-      "status": "Open",
+      "status": "Completed",
       "reviewers_verified": {
         "U07C6DZ3ZFH": {
           "name": "Saif El-Neweshy",
@@ -86,6 +86,12 @@
           "U074RR3MMCH",
           "U03SFUZS0GG"
         ]
+      },
+      "closed": "2026-10-28",
+      "closure_reason": "Closure message already posted in #people-team 2026-10-28 (reconciled 2026-10-29); thread shows substantive feedback from 6 reviewers and requestor replies; remaining reviewers no longer tracked as pending.",
+      "closure_message": {
+        "ts": "1793165818.690229",
+        "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793165818690229"
       }
     }
   ]
