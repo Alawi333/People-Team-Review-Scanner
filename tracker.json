@@ -1,92 +1,52 @@
 {
-  "last_run": "2026-10-21",
-  "limitations": [],
+  "last_run": "2026-11-05",
+  "limitations": [
+    "Tracker in repo was stale at start of 2026-11-05 run: PT-1 closure (2026-10-28) and PT-2 first follow-up (2026-11-04) were posted to Slack but not recorded here. Reconciled from Slack history."
+  ],
   "requests": [
     {
       "id": "PT-1792132790.924999",
       "channel": "C06GP0S90QJ",
-      "requestor": {
-        "name": "Niyati Varma",
-        "id": "U06F3U8B2CF"
-      },
+      "requestor": {"name": "Niyati Varma", "id": "U06F3U8B2CF"},
       "subject": "Performance Review 2026 user-guide webpage feedback",
       "message_ts": "1792132790.924999",
       "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1792132790924999",
-      "related_reminder_ts": "1792384941.616469",
       "scope": "whole-team (@here)",
+      "status": "Completed",
+      "date_closed": "2026-10-28",
+      "closure_reason": "Niyati confirmed feedback received (2026-10-22 07:22 +04); closure message posted 2026-10-28",
+      "followups": [
+        {"type": "initial", "ts": "1792583144.387669", "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1792583144387669"},
+        {"type": "closure", "ts": "1793165818.690229", "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793165818690229"}
+      ],
+      "last_followup": "2026-10-28"
+    },
+    {
+      "id": "PT-1793546597.179579",
+      "channel": "C06GP0S90QJ",
+      "requestor": {"name": "Saif El-Neweshy", "id": "U07C6DZ3ZFH"},
+      "subject": "New Employee Handbook (pre-launch review)",
+      "message_ts": "1793546597.179579",
+      "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793546597179579",
+      "scope": "whole-team (\"each of you\"; builders Saif and Soumya excluded)",
       "deadline": null,
-      "discovered": "2026-10-21",
-      "first_followup_eligible": "2026-10-18T10:39+04:00",
-      "first_followup_posted": "2026-10-21T15:45+04:00",
+      "discovered": "2026-11-05 (reconstructed; first follow-up posted 2026-11-04)",
       "status": "Open",
       "reviewers_verified": {
-        "U07C6DZ3ZFH": {
-          "name": "Saif El-Neweshy",
-          "status": "Completed",
-          "ts": "1792580847.457939"
-        },
-        "U05JC2ZV7P1": {
-          "name": "Ali Memar",
-          "status": "Completed",
-          "ts": "1792388970.160709"
-        },
-        "U0E9F8LK1": {
-          "name": "Mimi",
-          "status": "Completed",
-          "ts": "1792385443.079089"
-        },
-        "U069365K62J": {
-          "name": "Kamakshi",
-          "status": "Pending - No Response"
-        },
-        "U08C9MKHH8X": {
-          "name": "Marwa Abosrea",
-          "status": "Pending - No Response"
-        },
-        "U0C5N8DFYGZ": {
-          "name": "Sara Elmahrouky",
-          "status": "Pending - No Response"
-        },
-        "U07Q7CL9ANP": {
-          "name": "Soumya Mainalle",
-          "status": "Pending - No Response"
-        },
-        "U074RR3MMCH": {
-          "name": "Wani",
-          "status": "Pending - No Response"
-        },
-        "U03SFUZS0GG": {
-          "name": "Svetlana",
-          "status": "Pending - No Response"
-        }
+        "U06F3U8B2CF": {"name": "Niyati Varma", "status": "Completed", "ts": "1793590489.784319"},
+        "U05JC2ZV7P1": {"name": "Ali Memar", "status": "Completed", "ts": "1793598010.636179"},
+        "U03SFUZS0GG": {"name": "Svetlana", "status": "Completed", "ts": "1793604651.035659"},
+        "U08C9MKHH8X": {"name": "Marwa Abosrea", "status": "Completed", "ts": "1793692180.166519"},
+        "U074RR3MMCH": {"name": "Wani", "status": "Completed", "ts": "1793700702.240949"},
+        "U0C5N8DFYGZ": {"name": "Sara Elmahrouky", "status": "Completed", "ts": "1793778377.058669"},
+        "U069365K62J": {"name": "Kamakshi", "status": "Completed", "ts": "1793784526.911799"},
+        "U0E9F8LK1": {"name": "Mimi", "status": "Pending - No Response"}
       },
-      "reviewers_unverified_roster": null,
-      "svetlana_id": "U03SFUZS0GG",
-      "roster_snapshot_source": "Provided by Ali 2026-10-21; Niyati excluded as requestor",
       "followups": [
-        {
-          "type": "initial",
-          "ts": "1792583144.387669",
-          "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1792583144387669"
-        }
+        {"type": "initial", "ts": "1793772325.488229", "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793772325488229"}
       ],
-      "last_followup": "2026-10-21",
-      "next_reminder_eligible": "2026-10-28",
-      "last_communicated": {
-        "completed": [
-          "U07C6DZ3ZFH",
-          "U05JC2ZV7P1",
-          "U0E9F8LK1"
-        ],
-        "pending": [
-          "U069365K62J",
-          "U08C9MKHH8X",
-          "U0C5N8DFYGZ",
-          "U07Q7CL9ANP",
-          "U074RR3MMCH",
-          "U03SFUZS0GG"
-        ]
-      }
+      "last_followup": "2026-11-04",
+      "next_reminder_eligible": "2026-11-11"
     }
   ]
 }
