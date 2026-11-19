@@ -1,6 +1,8 @@
 {
-  "last_run": "2026-10-21",
-  "limitations": [],
+  "last_run": "2026-11-19",
+  "limitations": [
+    "Tracker file was last committed 2026-10-21; the Employee Handbook request and both closures were reconstructed from #people-team channel history on 2026-11-19."
+  ],
   "requests": [
     {
       "id": "PT-1792132790.924999",
@@ -18,7 +20,7 @@
       "discovered": "2026-10-21",
       "first_followup_eligible": "2026-10-18T10:39+04:00",
       "first_followup_posted": "2026-10-21T15:45+04:00",
-      "status": "Open",
+      "status": "Completed",
       "reviewers_verified": {
         "U07C6DZ3ZFH": {
           "name": "Saif El-Neweshy",
@@ -86,7 +88,61 @@
           "U074RR3MMCH",
           "U03SFUZS0GG"
         ]
+      },
+      "closed": "2026-10-28",
+      "closure_reason": "All reviewers responded; closure message posted",
+      "closure_post": {
+        "ts": "1793165818.690229",
+        "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793165818690229"
       }
+    },
+    {
+      "id": "PT-1793546597.179579",
+      "channel": "C06GP0S90QJ",
+      "requestor": {
+        "name": "Saif El-Neweshy",
+        "id": "U07C6DZ3ZFH"
+      },
+      "subject": "New Employee Handbook (pre-launch review)",
+      "message_ts": "1793546597.179579",
+      "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793546597179579",
+      "status": "Completed",
+      "closed": "2026-11-12",
+      "closure_reason": "All reviewers completed; handbook launched 2026-11-11; closure message posted",
+      "followups": [
+        {
+          "type": "initial",
+          "ts": "1793772325.488229",
+          "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1793772325488229"
+        },
+        {
+          "type": "closure",
+          "ts": "1794452515.034979",
+          "permalink": "https://wego.slack.com/archives/C06GP0S90QJ/p1794452515034979"
+        }
+      ]
+    },
+    {
+      "id": "PT-1794467688.996129",
+      "channel": "C06GP0S90QJ",
+      "requestor": {
+        "name": "Ali Memar",
+        "id": "U05JC2ZV7P1"
+      },
+      "subject": "Test Cowork-to-Claude-Code video/tool and share feedback",
+      "message_ts": "1794467688.996129",
+      "status": "Awaiting Clarification",
+      "note": "Addressed to no one specific, optional ('if you are available'); message says not to assign to everyone. No public follow-up."
+    }
+  ],
+  "not_tracked": [
+    {
+      "ts": "1794895118.250579",
+      "reason": "Same-day meeting prep question (AI/automations to present); not a review; meeting passed"
+    },
+    {
+      "ts": "1794988736.412889",
+      "reason": "Attendance reminder for product showcase; not a review"
     }
   ]
 }
